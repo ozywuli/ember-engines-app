@@ -1,7 +1,7 @@
 {
-  "name": "ember-engines",
+  "name": "ember-engines-app",
   "version": "0.0.0",
-  "description": "Small description for ember-engines goes here",
+  "description": "Small description for ember-engines-app goes here",
   "license": "MIT",
   "author": "",
   "directories": {
@@ -31,7 +31,9 @@
     "ember-cli-sri": "^2.1.0",
     "ember-cli-test-loader": "^1.1.0",
     "ember-cli-uglify": "^1.2.0",
+    "ember-cli-youtube-modal": "0.0.11",
     "ember-data": "^2.11.0",
+    "ember-engines": "0.4.0",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.6.0",
     "ember-resolver": "^2.0.3",
@@ -42,5 +44,10 @@
   "engines": {
     "node": ">= 0.12.0"
   },
-  "private": true
+  "private": true,
+  "ember-addon": {
+    "paths": [
+      "lib/contact-page"
+    ]
+  }
 }
