@@ -18,11 +18,15 @@ App = Ember.Application.extend({
                 externalRoutes: {
                     index: 'index',
                     about: 'about'
-                }
+                },
+                services: [
+                    'site-state'
+                ]
             }
         }
     }
 });
+
 
 loadInitializers(App, config.modulePrefix);
 
